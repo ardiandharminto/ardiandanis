@@ -4,7 +4,7 @@
             <div class="col-xl-6 col-lg-8">
                 <div class="section__title text-center">
                     <span class="sub-title">Portfolio</span>
-                    <h2 class="title">All creative work</h2>
+                    <h2 class="title">All creative works</h2>
                 </div>
             </div>
         </div>
@@ -26,7 +26,7 @@
                                     <div class="portfolio__overlay__content">
                                         <span>{{ $item->portfolio_name }}</span>
                                         <h4 class="title"><a href="{{ route('portfolio.details', $item->id) }}">{{ $item->portfolio_title }}</a></h4>
-                                        <a href="{{ route('portfolio.details', $item->id) }}" class="link">See Details</a>
+                                        <a href="{{ route('portfolio.details', $item->id) }}" class="link">Case Study</a>
                                     </div>
                                 </div>
                             @endforeach
