@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/ardi6963/public_html/ardiandanis/
+    - export DEPLOYPATH=/home/ardi6963/ardiandanis/
     # - /bin/cp -R ardiandanis $DEPLOYPATH
     - /bin/cp -R app $DEPLOYPATH
     - /bin/cp -R config $DEPLOYPATH
